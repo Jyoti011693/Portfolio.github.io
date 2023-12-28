@@ -1,0 +1,86 @@
+body{
+    background-color: gray;
+    margin: 0px; 
+    padding: 0px;
+    box-sizing: border-box;
+    height: 100vh;
+    border: 3px solid black;
+
+}
+   
+.container{
+   width:90%;
+ height: 550px;
+ background-image: url(./1.avif);
+ background-repeat: no-repeat;
+ background-size: cover;
+ margin: 45px auto;
+}
+.nav{
+   text-align: center;
+   width: 100%;
+   float: right;
+   margin: 10px 0px;
+   
+}
+.nav ul{
+    list-style: none;
+    margin: 0px;
+}
+.nav ul li{
+margin: 0px 15px;
+display: inline-block;
+color: white;
+font-size: 15px;
+text-transform:uppercase;
+font-family: cursive;
+transition: 1s;
+}
+.nav ul li:hover{
+
+background-color: rgba(52, 83, 196, 0.521);
+
+}
+header{
+    float: left;
+    margin-left: 80px;
+    width: 20%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bolder;
+}
+header::first-letter{
+    color: red;
+    font-style: italic;
+    font-size: xx-large;
+}
+a{
+    text-decoration: none;
+    color: white;
+   
+}
+.main{
+    display: inline-block;
+    margin:15% ;
+    padding: 30px;
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+span{
+    color:crimson;
+    display: block;
+}
+.button{
+    margin: 15px 0px;
+    font-size: 15px;
+    width: 200px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    background: transparent;
+    color: crimson;
+    border: 1px solid crimson;
+    text-align: center;
+    cursor: pointer;
+}
